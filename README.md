@@ -13,47 +13,23 @@ The ML diagnosis is integrated with an ESP32 over Wi-Fi and displayed on a physi
 ## System Architecture
 
 ```text
-              74283 Circuit Data
-                      |
-                      v
-              Python ML Pipeline
-                      |
-                      v
-                 SVM Classifier
-                      |
-                      v
-              Streamlit Dashboard
-                      |
-                    Wi-Fi
-                      |
-                      v
-                ESP32-WROOM-32
-                      |
-                    I²C
-                      |
-                      v
-                  LCD Display
----
-
-## Demo & Results
-
-The project was tested through a complete software-to-hardware workflow:
-
-```text
-74283 Circuit Behavior
-        ↓
-14-Feature Observation
-        ↓
-SVM (RBF) Classifier
-        ↓
-Fault Classification
-        ↓
+74283 Circuit Data
+        |
+        v
+Python ML Pipeline
+        |
+        v
+SVM Classifier
+        |
+        v
 Streamlit Dashboard
-        ↓
-Wi-Fi / HTTP
-        ↓
-ESP32
-        ↓
-I²C
-        ↓
-Physical LCD
+        |
+      Wi-Fi
+        |
+        v
+ESP32-WROOM-32
+        |
+       I²C
+        |
+        v
+LCD Display
