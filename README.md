@@ -33,3 +33,27 @@ The ML diagnosis is integrated with an ESP32 over Wi-Fi and displayed on a physi
                       |
                       v
                   LCD Display
+---
+
+## Demo & Results
+
+The project was tested through a complete software-to-hardware workflow:
+
+```text
+74283 Circuit Behavior
+        ↓
+14-Feature Observation
+        ↓
+SVM (RBF) Classifier
+        ↓
+Fault Classification
+        ↓
+Streamlit Dashboard
+        ↓
+Wi-Fi / HTTP
+        ↓
+ESP32
+        ↓
+I²C
+        ↓
+Physical LCD
