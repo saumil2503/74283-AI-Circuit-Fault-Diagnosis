@@ -39,7 +39,8 @@ The resulting diagnosis is sent from the Streamlit application to an **ESP32 ove
                        |
                        v
                   16×2 LCD
-```---
+```
+---
 
 ## Key Features
 
