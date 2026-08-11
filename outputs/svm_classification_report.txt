@@ -1,0 +1,18 @@
+74283 DIGITAL CIRCUIT ANOMALY CLASSIFICATION
+==================================================
+
+Final Model: SVM (RBF)
+Accuracy: 70.24%
+
+Classification Report
+--------------------------------------------------
+              precision    recall  f1-score   support
+
+          o1     0.8704    0.4608    0.6026       102
+         z17     0.4608    0.8704    0.6026        54
+         z18     1.0000    0.6311    0.7738       103
+          z2     0.6696    1.0000    0.8021        77
+
+    accuracy                         0.7024       336
+   macro avg     0.7502    0.7406    0.6953       336
+weighted avg     0.7983    0.7024    0.7008       336
